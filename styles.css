@@ -114,3 +114,42 @@ span {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 20px;
 }
+
+@media (max-width: 900px){
+    #espresso, #sweet, #manual, #tea, #milk, #foods, #snacks{
+        width: 100%;
+        display: block;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    #espresso {
+        margin-left: 0;
+    }
+
+    #manual {
+        margin-left: 0;
+    }
+
+    #tea, #foods {
+        margin-left: 0;
+    }
+
+    #milk, #snacks {
+        margin-left: 0;
+    }
+
+    #snacks h2{
+        margin-bottom: 20px;
+    }
+    
+    .img{
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+    .navbar li {
+        float: none;
+    }
+}
