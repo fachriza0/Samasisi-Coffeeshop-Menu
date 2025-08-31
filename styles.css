@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #EBE5C2;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #504b38;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #ebe5c2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Archivo Black", sans-serif;
+}
+
+.img{
+    height: 40px;
+    top: 0;
+    margin-bottom: 0;
+}
+
+section {
+    margin: 20px;
+}
+
+#home h1{
+    text-align: center;
+    font-family: "Archivo Black";
+    text-decoration: underline;
+    font-size: 42px;
+}
+
+h2{
+    font-family: "Archivo Black";
+    font-size: 36px;
+    text-align: center;
+}
+
+#espresso, #sweet, #manual, #tea, #milk, #foods, #snacks{
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#espresso {
+    margin-left: 120px;
+}
+
+#manual {
+    margin-left: 100px;
+}
+
+.drinks, .foods {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.drinks li , .foods li{
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+span {
+    float: right;
+}
+
+#manual p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#tea, #foods {
+    margin-left: 240px;
+}
+
+#milk, #snacks {
+    margin-left: 140px;
+}
+
+#snacks h2{
+    margin-bottom: 65px;
+}
+
+#contact{
+    background-color: #504b38;
+    margin-left: 0;
+    width: 100%;
+    color: #ebe5c2
+}
+
+#contact h2{
+    margin-bottom: 20px;
+}
+
+#contact p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+}
